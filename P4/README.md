@@ -14,13 +14,20 @@
         ![](ej3-touched-type1.gif)
 
 4. Cuando el cubo se aproxima al objeto de referencia, los humanoides del grupo 1 se teletransportan a un escudo objetivo que debes fijar de antemano.Los humanoides del grupo 2 se orientan hacia un objeto ubicado en la escena con ese propósito. 
+![](ej4.gif)
 
 5. Implementar la mecánica de recolectar escudos en la escena que actualicen la puntuación del jugador. Los escudos de tipo 1 suman 5 puntos y los de tipo 2 suman 10. Mostrar la puntuación en la consola.
+![](ej5.gif)
 
 6. Partiendo del script anterior crea una interfaz que muestre la puntuación que va obteniendo el cubo. 
+![](ej6.gif)
 
 7. Partiendo de los ejercicios anteriores, implementa una mecánica en la que cada 100 puntos el jugador obtenga una recompensa que se muestre en la UI.
+![](ej7.gif)
 
 8. Genera una escena que incluya elementos que se ajusten a la escena del prototipo y alguna de las mecánicas anteriores.
 
+
 9. Implementa el ejercicio 3 siendo el cubo un objeto físico.
+    Esto se realizó ya previamente para agilizar la visualización de los efectos del cubo (objeto físico controlable). 
+    ![](ej3-touched-type1.gif)
