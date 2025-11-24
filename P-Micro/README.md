@@ -6,7 +6,7 @@ objetivo. Para reproducir sonido en una aplicación Unity es necesario utilizar
 un objeto AudioSource. El objeto AudioSource reproduce el sonido que
 contiene un AudioClip, que podemos instanciar arrastrando desde el editor
 el asset con el clip de audio que esté importado en la escena.
-![]
+![sonido_soldados](Video/sonido_soldados.mp4)
 
 
 2. Del mismo modo que podemos reproducir un sonido previamente grabado, podemos hacer que se reproduzaca el AudioClip que genera el micrófono utilizando la función Microphone.Start. Crea una escena en la que estés en un espacio abierto en el que habrá una pantalla central con altavoces que al pulsar la tecla R reproduzcan el sonido que se obtenga por el micrófono del dispositivo.
@@ -19,3 +19,13 @@ del objeto Renderer del elemento que uses como pantalla accedes a la
 propiedad material y a su mainTexture asignarle lo que se capta por la
 cámara. Para pausar la reproducción basta llamar a la función Pause() y,
 para detenerla, a la función Stop().
+
+4. Se debe mostrar el nombre de la camara en la consola.
+
+5. Debe ser posible capturar fotogramas aislados y conservarlos en memoria
+como imágenes fijas. Se debe crear un objeto para la textura, Texture2D y
+pasarle la imagen-frame de la cámara como un bloque de píxeles y finalmente
+almacenar en un fichero dicha textura.
+
+Ejercicios 2, 3, 4, 5:
+![grabagraba](Video/grabagraba.mp4)
